@@ -5,7 +5,7 @@ import os
 import json
 
 # 
-#  a class that, given the option, will generate a map 
+#  a class that, given the option, will generate a chloropleth map 
 # for a certain outbreak data set
 class mapper():
     def __init__(self, illness):
