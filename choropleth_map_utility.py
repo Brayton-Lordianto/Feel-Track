@@ -24,7 +24,7 @@ class Parameters():
         self.legend_name = ln
         self.date_posted = dp
 
-# hard coded parameters. received from website
+# parsed data from websites
 parameters = {
     Illness.Covid_19 : Parameters(Illness.Covid_19, 'https://data.cdc.gov/api/views/9mfq-cb36/rows.csv?accessType=DOWNLOAD', 
         "CSV", "state", "new_case", "New Covid-19 Cases", "June 25 2022"),
